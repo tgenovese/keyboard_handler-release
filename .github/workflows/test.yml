@@ -13,9 +13,9 @@ jobs:
   build_and_test:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/ros-tooling/setup-ros-docker/setup-ros-docker-ubuntu-noble:master
+      image: rostooling/setup-ros-docker:ubuntu-jammy-latest
     steps:
-    - uses: ros-tooling/action-ros-ci@v0.4
+    - uses: ros-tooling/action-ros-ci@v0.3
       with:
         package-name: keyboard_handler
         target-ros2-distro: rolling
