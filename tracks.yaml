@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:tgenovese/keyboard_handler-release.git
 tracks:
   humble:
     actions:
